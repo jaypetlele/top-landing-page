@@ -2,9 +2,10 @@
 
 body {font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
         margin: 0;
-    padding: 0;}
+}
 
-.header, .footer {
+.header,
+.footer {
                     background-color: #1f2937;
                     }
 
@@ -13,3 +14,11 @@ body {font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Ne
                 font-weight:900;
 
 }
+
+
+a,
+.hero-secondary-text {font-size: 18px;
+                    color: #e5e7eb;}
+
+
+
