@@ -74,7 +74,7 @@ a,
 }
 
 
-.card-container {margin: 0 150px 100px 150px;
+.card-container {margin: 0 150px 100px;
                 text-align: center;
                     display: flex;
                     justify-content: center;
@@ -92,7 +92,7 @@ a,
 
 /**Quote Section **/
 .quote-container {background-color: #e5e7eb;
-                  padding: 100px 150px;
+                  padding: 100px 200px;
                   display: flex;
                   flex-direction: column;
                 }
