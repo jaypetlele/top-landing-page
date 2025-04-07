@@ -78,7 +78,7 @@ a,
                 text-align: center;
                     display: flex;
                     justify-content: center;
-                    gap: 40px;}
+                    gap: 60px;}
 
 
 .card {max-width: 150px;}
@@ -113,7 +113,7 @@ a,
 .cta-container, .cta-container button {background-color: #3882F6;}
 .cta h3, .cta p {padding: 0; margin: 0;}
 
-.cta-container {margin: 100px 150px;
+.cta-container {margin: 100px 400px;
                 justify-content: center;
                 align-items: center;
                 padding: 40px 50px;
