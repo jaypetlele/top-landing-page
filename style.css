@@ -74,7 +74,7 @@ a,
 }
 
 
-.card-container {margin: 0 150px 100px;
+.card-container {padding: 0 200px 100px;
                 text-align: center;
                     display: flex;
                     justify-content: center;
