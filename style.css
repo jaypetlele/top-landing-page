@@ -131,4 +131,7 @@ a,
 
 /** Footer Section **/
 .footer {color: #fff;
-        font-size: 10px;}
+        font-size: 10px;
+        padding: 30px;
+        display: flex;
+        justify-content: center;}
