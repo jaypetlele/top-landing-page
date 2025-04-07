@@ -2,13 +2,35 @@
 
 body {font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
         margin: 0;
-    padding: 0;}
+        padding: 0px;
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+    }
 
-.header,
-.footer {
-                    background-color: #1f2937;
+.menu,.hero,.footer {background-color: #1f2937;
+                    padding: 15px;
                     }
 
+/** Menu **/
+.menu {display: flex;
+        justify-content: space-between;
+        align-items: center;}
+    .left {margin-right: auto;}
+        .logo   {font-size: 24px;
+                color: #f9faf8;}
+
+                
+        ul{display: flex;
+            list-style-type: none;
+            margin: 0;
+            padding: 0;}
+            li{padding: 10px;}
+            a{text-decoration: none;}
+/** Close Menu**/
+
+
+/** Hero section **/
 .hero-main-text {font-size: 48px;
                 color: #f9faf8;
                 font-weight:900;
@@ -19,8 +41,6 @@ a,
 .hero-secondary-text {font-size: 18px;
                     color: #e5e7eb;}
 
-.logo {font-size: 24;
-    color: #f9faf8;}
 
 .button-1 {background-color: #3882F6;}
 
@@ -28,8 +48,7 @@ a,
             width: 500px;
 }
 
-
-
+/** Close Hero **/
 
 /** Info Secton**/
 
