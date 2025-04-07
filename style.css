@@ -15,7 +15,7 @@ body {font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Ne
 .menu {display: flex;
         justify-content: space-between;
         align-items: center;
-        padding: 15px 420px;}
+        padding: 15px 150px;}
     .left {margin-right: auto;}
         .logo   {font-size: 24px;
                 color: #f9faf8;}
@@ -35,7 +35,7 @@ body {font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Ne
 .hero {display: flex;
 justify-content: space-between;
 gap: 50px;
-padding: 100px 420px;;}
+padding: 100px 150px;}
 
 .hero-main-text {font-size: 48px;
                 color: #f9faf8;
@@ -57,7 +57,8 @@ a,
         border-radius: 8px;}
 
 .header-img{
-            max-width: 500px;
+            width: 50%;
+            flex-shrink: 1;
 }
 
 /** Close Hero **/
@@ -69,11 +70,12 @@ a,
                     color: #1f2937;
                     font-weight: 900;
                     text-align: center;
-                    padding: 30px 420px;
+                    padding: 30px 150px;
 }
 
 
-.card-container {padding: 0 420px 30px 420px;}
+.card-container {padding: 0 150px 30px 150px;
+                    display: flex;}
 .card img {width: 40px;}
 
 /**Quote Section **/
