@@ -114,6 +114,8 @@ a,
                 display: flex;
                 gap: 50px;}
 
-    .cta {color: #fff;}
+    .cta h3, .cta p {color: #fff;
+                    padding: 0;
+                    margin: 0;}
     .cta-container button {padding: 10px;
                             border: none;}
