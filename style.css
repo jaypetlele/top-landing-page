@@ -23,3 +23,14 @@ a,
     color: #f9faf8;}
 
 .button-1 {background-color: #3882F6;}
+
+
+
+
+/** Info Secton**/
+
+.info-header-text {
+                    font-size: 36px;
+                    color: #1f2937;
+                    font-weight: 900;
+}
