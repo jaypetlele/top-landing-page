@@ -99,7 +99,8 @@ a,
                   flex-direction: column;
                 }
 
-.quote-container p {margin: 0 0 0 auto}
+.quote-container p {margin: 0 0 0 auto;
+                    font-weight: bold;}
 
 .quote-text {font-size: 36px;
             font-weight: lighter;
