@@ -31,6 +31,10 @@ body {font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Ne
 
 
 /** Hero section **/
+
+.hero {display: flex;
+justify-content: space-between;}
+
 .hero-main-text {font-size: 48px;
                 color: #f9faf8;
                 font-weight:900;
@@ -42,10 +46,13 @@ a,
                     color: #e5e7eb;}
 
 
-.button-1 {background-color: #3882F6;}
+.button-1 {background-color: #3882F6;
+            border: 0;
+            color: #fff;
+            padding: 5px 10px;}
 
 .header-img{
-            width: 500px;
+            width: 900px;
 }
 
 /** Close Hero **/
