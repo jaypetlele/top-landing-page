@@ -69,10 +69,13 @@ a,
                     color: #1f2937;
                     font-weight: 900;
                     text-align: center;
+                    padding: 30px 420px;
 }
 
 
 /**Quote Section **/
+
+
 
 .quote-container {background-color: #e5e7eb;}
 .quote-text {font-size: 36px;
