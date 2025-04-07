@@ -41,7 +41,6 @@ padding: 100px 220px;;}
                 color: #f9faf8;
                 font-weight:900;
                 margin: 0;
-
 }
 
 .hero-main-text,.hero-secondary-text,.button-1{margin: 5px 0;}
@@ -53,7 +52,9 @@ a,
 .button-1 {background-color: #3882F6;
             border: 0;
             color: #fff;
-            padding: 5px 10px;}
+            font-weight:bold;
+            padding: 10px 30px;
+        border-radius: 8px;}
 
 .header-img{
             width: 500px;
