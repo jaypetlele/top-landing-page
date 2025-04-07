@@ -107,16 +107,18 @@ a,
 
 /** CTA Section **/
 
+.cta-container button,.cta h3, .cta p {color: #fff;}
+
 .cta-container {margin: 100px 150px;
                 background-color: #3882F6;
-                padding: 20px 50px;
+                padding: 40px 50px;
                 border-radius: 10px;
                 display: flex;
                 gap: 50px;}
 
-    .cta h3, .cta p {color: #fff;
-                    padding: 0;
+    .cta h3, .cta p {padding: 0;
                     margin: 0;}
-    .cta-container button   {margin-left: auto;
-                            padding: 10px;
-                            border: none;}
+.cta-container button   {margin-left: auto;
+                        padding: 10px;
+                        border: none;
+                        border-color: ;}
