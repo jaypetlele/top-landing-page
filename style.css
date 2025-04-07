@@ -117,5 +117,6 @@ a,
     .cta h3, .cta p {color: #fff;
                     padding: 0;
                     margin: 0;}
-    .cta-container button {padding: 10px;
+    .cta-container button   {margin-left: auto;
+                            padding: 10px;
                             border: none;}
