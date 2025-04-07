@@ -9,13 +9,13 @@ body {font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Ne
     }
 
 .menu,.hero,.footer {background-color: #1f2937;
-                    padding: 15px 250px;
                     }
 
 /** Menu **/
 .menu {display: flex;
         justify-content: space-between;
-        align-items: center;}
+        align-items: center;
+        padding: 15px 220px;}
     .left {margin-right: auto;}
         .logo   {font-size: 24px;
                 color: #f9faf8;}
@@ -33,9 +33,9 @@ body {font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Ne
 /** Hero section **/
 
 .hero {display: flex;
-justify-content: space-between;}
-
-    .hero-text {flex-basis: 250px;}
+justify-content: space-between;
+gap: 50px;
+padding: 100px 220px;;}
 
 .hero-main-text {font-size: 48px;
                 color: #f9faf8;
