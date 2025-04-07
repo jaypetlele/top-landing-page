@@ -57,7 +57,7 @@ a,
         border-radius: 8px;}
 
 .header-img{
-            width: 500px;
+            max-width: 500px;
 }
 
 /** Close Hero **/
