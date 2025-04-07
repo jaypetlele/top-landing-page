@@ -104,3 +104,9 @@ a,
             font-style: italic;
             color: #1f2937;
             margin-bottom: 0;}
+
+/** CTA Section **/
+
+.cta-container {margin: 100px 150px;
+                background-color: #3882F6;
+                padding: 30px 50px;}
